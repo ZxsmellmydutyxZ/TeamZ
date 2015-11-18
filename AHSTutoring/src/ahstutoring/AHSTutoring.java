@@ -11,4 +11,8 @@ public class AHSTutoring extends Applet{
          public void paint(Graphics g) {
              g.drawString("Hello applet!", 50, 25);
          }
+         public static void main(String[] args){
+             AHSTutoring test = new AHSTutoring();
+             test.start();
+         }
 }
