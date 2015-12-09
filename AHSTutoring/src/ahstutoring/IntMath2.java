@@ -17,6 +17,7 @@ public class IntMath2 extends JApplet {
 		number = 50;
 		add = new JButton("Add");
 		sub = new JButton("Sub");
+                System.out.println("Hello");
 		add.addActionListener(new ButtonListenerAdd());
 		sub.addActionListener(new ButtonListenerSub());
 		num = new JLabel("Number: " + number);
